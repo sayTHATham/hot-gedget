@@ -1,15 +1,121 @@
-.navbar{
-    background-color: white;
-}
-p{
-    color: gray;
-}
-p{
-    font-family: 'Oswald', ;
-}
 .container{
     margin-bottom: 100px;
 }
+.navbar{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p{
+    color: gray;
+    font-family: 'Oswald', ;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.buy-now-button{
+    background-color: #000000;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.card{
+    box-shadow: 0 0 20px #0000001f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #0000007a;
+}
+.card img{
+    margin: auto;
+    width: 200px;
+    height: auto;
+    padding: 30px 0px 0px 0px;
 
-        
-    
+}
+.card h5{
+    color: #1F1F1F;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.card h5:hover{
+    color: rgb(255, 0, 119);
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.card p{
+    padding: 0px 5px;
+}
+
+.first-product-section-heading{
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+.second-product-section-heading{
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+.see-more-button a{
+    color: lightcoral;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.see-more-button a:hover{
+    color: white;
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.buy-now-button:hover{
+    background-color: #00f7ff;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.big-images{
+    width: 100%;
+}
+.categories-header{
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+}
+h1.categories-header::after {
+    content: "";
+    display: block;
+    height: 8px;
+    background-image: linear-gradient(to right, #FF9C35,#FFD019);
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 9px;
+}
+.first-images img{
+    box-shadow:0 0 20px 0px #cccccc;
+    padding: 50px 60px;
+    border-radius: 0px 20px 0px 50px;
+    margin: auto;
+}
+.sec-cat-images img{
+    box-shadow:0 0 20px 0px #cccccc;
+    padding: 50px 60px;
+    border-radius: 25px 0px 50px 0px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+}
+.big-images{
+    overflow: hidden;
+}
+.big-images img{
+    width: 580px;
+}
